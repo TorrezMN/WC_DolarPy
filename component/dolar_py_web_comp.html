@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolar Py | Web Component</title>
+</head>
+
+<body>
+    <center>
+        <h3>Dolar Py - Web Component</h3>
+    </center>
+    <hr>
+    <center>
+        <h2>Simple</h2>
+        <dolar-py kind='simple'></dolar-py>
+    </center>
+    <center>
+        <h2>Marquee</h2>
+        <dolar-py kind='simple-marquee'></dolar-py>
+    </center>
+    <center>
+        <h2>Stacked Table</h2>
+        <dolar-py kind='table-stacked'></dolar-py>
+    </center>  
+    <center>
+        <h2>Custom Stacked</h2>
+        <span>Available options.</span><br>
+        <code>
+            "amambay", "bbva", "bcp", "bonanza", "cambiosalberdi", "cambioschaco", "eurocambios", "interfisa", "lamoneda", "maxicambios", "mundialcambios", "mydcambios", "set", "vision".
+        </code>
+        <dolar-py kind='custom-table-stacked' exchangekeeper='bcp, bonanza, interfisa'></dolar-py>
+      
+    </center>
+
+
+
+
+
+
+    <script src="dolar_py_wc.js"></script>
+   
+</body>
+
+</html>

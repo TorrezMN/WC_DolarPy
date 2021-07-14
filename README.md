@@ -1,15 +1,21 @@
 # DolarPy Web-Component
 
-## Table of Contents
-
+<!-- ## Table of Contents -->
+<!-- 
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+- [Contributing](../CONTRIBUTING.md) -->
 
 ## About <a name = "about"></a>
 
 Web Component showing dollar exchange rate in Guaranies. Inspired and built based on a project of [Marcelo Elizeche](https://github.com/melizeche) more specifically, in the project [DolarPy](https://github.com/melizeche/dolarPy). That provides an API to obtain the dollar exchange rate in Guaranies.
+
+<div align='center'>
+You can see in Sandbox [here](https://sm6xg.csb.app/).
+</div>
+
+
 <!-- 
 ## Getting Started <a name = "getting_started"></a>
 
